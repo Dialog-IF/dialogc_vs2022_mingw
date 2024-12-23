@@ -142,4 +142,4 @@ The debugger won't run in VS2022 yet, but if you want to compile it in *MSYS2* y
 
 3. `make dgdebug.exe` in the *Dialog* `/src`.
 
-To run *dgdebug* you need `Glk.dll` and `ScaleGfx.dll` in same directory as the `dgdebug.exe`. Of course `/src` can also be compiled for 32-bit as above or with `make dialogc`.
+To run *dgdebug* you need `Glk.dll` and `ScaleGfx.dll` in same directory as the `dgdebug.exe`. Of course `dialogc` can also be compiled for 32-bit as above or with `make dialogc`.
