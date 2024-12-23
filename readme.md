@@ -7,7 +7,7 @@
 ```
     pacman -S mingw-w64-ucrt-x86_64-gcc
     pacman -S mingw-w64-x86_64-gcc
-	pacman -S mingw-w64-i686-gcc
+    pacman -S mingw-w64-i686-gcc
     pacman -S make
 ```
 
