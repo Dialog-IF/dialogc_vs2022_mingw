@@ -1,4 +1,4 @@
-## Setting up Dialog to compile in Visual Studio 2022 with minGW64
+## Setting up Dialog to compile in Visual Studio 2022 with mingw64/32 or ucrt64
 
 1. Install *MSYS2* in `C:\msys64` (https://www.msys2.org/). Use default settings for installation.
 
@@ -142,4 +142,4 @@ The debugger won't run in VS2022 yet, but if you want to compile it in *MSYS2* y
 
 3. `make dgdebug.exe` in the *Dialog* `/src`.
 
-To run *dgdebug* you need `Glk.dll` and `ScaleGfx.dll` in same directory as the `dgdebug.exe`.
+To run *dgdebug* you need `Glk.dll` and `ScaleGfx.dll` in same directory as the `dgdebug.exe`. Of course `/src` can also be compiled for 32-bit as above or with `make dialogc`.
